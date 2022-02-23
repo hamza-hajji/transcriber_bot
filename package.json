@@ -1,0 +1,20 @@
+{
+  "name": "transcriber_bot",
+  "version": "1.0.0",
+  "description": "Discord bot that transcribes image messages, and optionally translates the transcribed text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamza-hajji/transcriber_bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamza-hajji/transcriber_bot/issues"
+  },
+  "homepage": "https://github.com/hamza-hajji/transcriber_bot#readme"
+}
