@@ -21,10 +21,10 @@
   "homepage": "https://github.com/hamza-hajji/transcriber_bot#readme",
   "dependencies": {
     "discord.js": "13.6.0",
-    "tesseract.js": "2.1.5"
+    "dotenv": "16.0.0",
+    "node-tesseract-ocr": "^2.2.1"
   },
   "devDependencies": {
-    "dotenv": "^16.0.0",
-    "nodemon": "^2.0.15"
+    "nodemon": "2.0.15"
   }
 }
