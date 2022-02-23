@@ -4,7 +4,9 @@
   "description": "Discord bot that transcribes image messages, and optionally translates the transcribed text",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/hamza-hajji/transcriber_bot/issues"
   },
-  "homepage": "https://github.com/hamza-hajji/transcriber_bot#readme"
+  "homepage": "https://github.com/hamza-hajji/transcriber_bot#readme",
+  "dependencies": {
+    "discord.js": "13.6.0",
+    "tesseract.js": "2.1.5"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
 }
